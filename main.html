@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WanderWatch</title>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9O-IBhyS5pAgGmMCNZialqSKxnG86ZpM&callback=console.debug&libraries=maps,marker&v=beta"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.1"></script> 
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://www.gstatic.com/external_hosted/jquery2.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=drawing,places&key=AIzaSyC9O-IBhyS5pAgGmMCNZialqSKxnG86ZpM"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <h1>WanderWatch</h1>
+    <p>Creating spatial probability distributions from Bayesian algorithms to help locate missing children.</p>
+
+
+    <div class="color-spectrum-wrapper">
+      <div class="text-left">0%</div>
+      <div class="color-spectrum-bar"></div>
+      <div class="text-right">100%</div>
+    </div>
+
+    <div id="map"></div>
+    <div id="bar">
+      <p><a id="clear" href="#">Click here</a> to clear map.</p>
+    </div>
+
+  <div class="buttons">
+    <input type="time" id="timeInput1" placeholder="Enter time">
+    <input type="time" id="timeInput2" placeholder="Enter time">
+    <button id="submitTime" class="btn">Finalize Time</button>
+    <button id="confetti-button" class="btn">Child Found!</button>
+  </div>
+  <div class="radio-buttons">
+    <label>
+      <input type="radio" name="options" value="option1" checked> Currently Searching
+    </label>
+    <label>
+      <input type="radio" name="options" value="option2"> Not Searching
+    </label>
+  </div>
+
+  <button id="find-me">Show my location</button><br />
+  <p id="status"></p>
+  <a id="map-link" target="_blank"></a>
+
+  <script src="confetti.js"></script>
+
+  </body>
+</html>
