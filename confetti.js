@@ -30,7 +30,7 @@ document.getElementById('confetti-button').addEventListener('click', function() 
   createConfetti();
 });
 
-var apiKey = 'AIzaSyC9O-IBhyS5pAgGmMCNZialqSKxnG86ZpM';
+var apiKey = '';
 
 var map;
 var drawingManager;
