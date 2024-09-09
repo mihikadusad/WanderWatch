@@ -6,3 +6,7 @@ According to the Office of Juvenile Justice and Delinquency Prevention, a child 
 ## Tools Used
 * Frontend: HTML, CSS
 * Backend: Javascript, Google Maps API, ArcGIS
+
+## Link to Demo Video:
+
+https://www.youtube.com/watch?v=WGrJUvzPQmE
