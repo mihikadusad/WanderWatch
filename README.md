@@ -7,6 +7,8 @@ According to the Office of Juvenile Justice and Delinquency Prevention, a child 
 * Frontend: HTML, CSS
 * Backend: Javascript, Google Maps API, ArcGIS
 
+Note: The Google Maps API membership has expired, so users may no longer launch WanderWatch directly from their PC. We ask that you watch the demo video to understand how the software works.
+
 ## Link to Demo Video:
 
 https://www.youtube.com/watch?v=WGrJUvzPQmE
