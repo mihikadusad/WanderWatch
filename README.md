@@ -10,3 +10,4 @@ According to the Office of Juvenile Justice and Delinquency Prevention, a child 
 Note: The Google Maps API membership has expired, so users may no longer launch WanderWatch directly from their PC. We ask that viewers watch the demo video instead to better understand how the software works.
 
 ## [Link to Demo Video](https://www.youtube.com/watch?v=WGrJUvzPQmE&t=1397s)
+This project won first place overall in the general track of the 2024 HackMIT Blueprint competition, hosted at MIT. We presented our final product during the awards ceremony.
